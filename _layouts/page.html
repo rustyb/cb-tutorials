@@ -1,0 +1,40 @@
+{% include html_head.html %}
+{% assign nav = 'left' %}
+{% assign nav1 = 'right' %}
+{% include main_nav.html %}
+<!-- Header -->
+<div style="background:#28353d;">
+	<div class="row">
+		<div class="large-7 columns small-centered large-centered" style="text-align:center;padding:60px 30px 30px 30px;color:#fff;">
+			<h3 style="color:#fff;">{{page.title}}</h3>
+		</div>
+	</div>
+	
+</div>
+
+<!-- End Header -->
+
+<div class="row prose">
+		<div class="large-9 large-centered columns">
+			<div class="large-12 columns">
+			<!--	<h3>{{page.title}}</h3>
+				<hr /> 
+			
+			<nav class="breadcrumbs" style="margin-bottom:30px;">
+			  <a href="#">Home</a>
+			  <a href="{{site.baseurl}}/{{page.group}}">{{page.group}}</a>
+			  <a class="current" href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+			</nav>-->
+			{% if page.tags contains 'consultant' %}
+				<p style="text-align:center;	"><img src="{{page.image}}" /></p>
+			{% endif %}
+			{{content}}
+			</div>
+		</div>
+	{% assign group_nav = page.group %}
+	{% include sidebar.html %}
+</div>	
+
+{% include footer.html %}
+{% include html_end.html %}
+

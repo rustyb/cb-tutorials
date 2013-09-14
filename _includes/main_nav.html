@@ -1,0 +1,48 @@
+<div class="contain-to-grid">
+<nav class="top-bar ">
+	<ul class="title-area">
+			<!-- Title Area -->
+	
+			<li class="name">
+				<h1>
+					<a href="#">
+						Colin Broderick
+					</a>
+				</h1>
+			</li>	
+		
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	</ul>
+	<section class="top-bar-section ">
+		<!-- Left Nav Section -->
+		<ul class="left">
+			
+			{% assign nav = 'left' %}
+			{% for node in site.posts %}
+			{% if nav == node.main_nav  %}
+			{% if page.url == node.url %}
+			<li class="active"><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></li>
+			{% else %}
+			<li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></li>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+		</ul>
+		<!-- Right Nav Section -->
+		<ul class="right">
+			<li><a href="{{ site.baseurl }}/tutorials">Tutorials</a></li>
+			{% assign nav1 = 'right' %}
+			{% for node in site.posts %}
+			{% if nav1 == node.main_nav  %}
+			{% if page.url == node.url %}
+			<li class="active"><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></li>
+			{% else %}
+			<li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></li>
+			{% endif %}
+			{% endif %}
+			{% endfor %}
+		</ul>
+		
+	</section>
+</nav>
+</div>

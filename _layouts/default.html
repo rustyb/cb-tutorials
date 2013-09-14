@@ -1,0 +1,18 @@
+{% include html_head.html %}
+{% assign nav = 'left' %}
+{% assign nav1 = 'right' %}
+{% include main_nav.html %}
+
+<div class="row prose">
+		<div class="large-9 push-3 columns">
+			<div class="large-12 columns">
+				{{content}}
+			</div>
+		</div>
+	{% assign group_nav = page.group %}
+	{% include sidebar.html %}
+</div>
+
+{% include footer.html %}
+{% include html_end.html %}
+

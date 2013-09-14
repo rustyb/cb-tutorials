@@ -1,0 +1,26 @@
+baseurl: /jekyll-site-template
+permalink: pretty
+paginate: 10
+relative_permalinks: true
+markdown: rdiscount
+prose:
+  rooturl: '_posts'
+  media: "media"
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "string"
+          label: "Title"
+          value: "Please Change me to a the proper Title"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "default"
+      - name: "image"
+        field:
+          element: "string"
+          label: "Image"
+          value: "http://www.dublincity.ie/Pages/Welcome/defaultpagecontent/images/ShortLogo.png"
+

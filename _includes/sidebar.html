@@ -1,0 +1,25 @@
+{% if page.group %}
+<div class="large-3 pull-9 columns">
+    <h3 class="home" style="background: #518F9A;
+	padding: 1em 0;
+	margin-bottom: 0;
+	color: #fff;">{{page.group}}</h3>
+  <ul class="side-nav">
+
+{% for post in site.posts %}
+	{% if page.group == post.group %}
+		{% if page.url == post.url %}
+  	 		<li class="active"><a href="{{ site.baseurl }}{{post.url}}" class="active">{{post.title}}</a></li>
+  		{% else %}
+  			<li><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a></li>
+  		 {% endif %}
+
+	{% endif %}
+{% endfor %}
+    
+  </ul>
+
+  <p><img src="http://placehold.it/320x540&text=Ad" /></p>
+
+</div>
+{% endif %}
