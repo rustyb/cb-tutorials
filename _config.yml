@@ -12,7 +12,7 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "blog"
+          value: "tutorials"
       - name: "layout"
         field:
           element: "hidden"
@@ -33,7 +33,11 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "Tutorials"
+              value: "tutorials"
+            - name: "QGIS"
+              value: "qgis"
+            - name: "Buffer"
+              value: "buffer"
+            - name: "Selections"
+              value: "selections"
