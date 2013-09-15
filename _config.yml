@@ -1,4 +1,4 @@
-baseurl: /jekyll-site-template
+baseurl: /cb-tutorials
 permalink: pretty
 paginate: 10
 relative_permalinks: true
