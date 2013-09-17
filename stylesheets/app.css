@@ -7461,3 +7461,9 @@ p.consultants span {
 p.consultants span img {
   padding-right: 5px;
 }
+
+/* line 146, ../sass/_custom.scss */
+pre {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
