@@ -1,6 +1,6 @@
 ## CB Tutorials
 
-This repository has been created to fullfill submission requirements for a course in GIS Applications taught by @glennon.
+This repository has been created to fullfill submission requirements for a course in GIS Applications taught by [@glennon](https://github.com/glennon)
 
 It will contain write ups and tutorials as required for the course in an easily accessible format.
 
@@ -15,4 +15,3 @@ It will contain write ups and tutorials as required for the course in an easily 
 **Colin Broderick**
 
 - [twitter](http://www.twitter.com/rusty1052) 
-
