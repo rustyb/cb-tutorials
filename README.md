@@ -1,8 +1,14 @@
-## Zurb Foundation CSS + Compass + Jekyll Site Template
+## CB Tutorials
 
-This is yet another blank starter site built using version 4.x of ZURB's Foundation Framework (with compass + sass), the Jekyll static site generator.
+This repository has been created to fullfill submission requirements for a course in GIS Applications taught by @glennon.
 
-It is set up for immediate deployment to gh-pages.
+It will contain write ups and tutorials as required for the course in an easily accessible format.
+
+### Assignments
+
+- [Assignment 1 - GIS Application functions tutorial] (http://rustyb.github.io/cb-tutorials/tutorial-1/)
+- [Assignment 2 - Part 4 GeoJSON output of Kibera, Kenya](https://github.com/rustyb/cb-tutorials/tree/gh-pages/geojson)
+
 
 ## Author
 
@@ -10,13 +16,3 @@ It is set up for immediate deployment to gh-pages.
 
 - [twitter](http://www.twitter.com/rusty1052) 
 
-
-## Framework
-
-**Jekyll**
-
-The Jekyll static site generator was created by Tom Preston-Werner, a co-founder at GitHub.
-
-**ZURB Foundation**
-
-The Foundation framework was made by ZURB, an interaction and design strategy firm in California, USA.
